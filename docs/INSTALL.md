@@ -30,13 +30,13 @@ git clone https://github.com/facebookresearch/pycls $PYCLS
 Install Python dependencies:
 
 ```
-pip install -r $PYCLS/requirements.txt
+pip install -r $PYCLS/dev/requirements.txt
 ```
 
 Set up Python modules:
 
 ```
-cd $PYCLS && make
+cd $PYCLS && python setup.py develop --user
 ```
 
 ## Datasets
